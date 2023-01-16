@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(29, 28, 28);
+} 
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    position: absolute;
+    top: 25%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    top:50%;
+    background-color: orangered;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(255, 94, 0);
+    transition: 0.7s;
+}
+
+#input-text {
+    border-radius: 25px;
+    position: absolute;
+    top: 40%;
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    border: 1px white solid;
+    color: white;
+}
